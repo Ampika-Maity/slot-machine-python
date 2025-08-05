@@ -1,43 +1,56 @@
 # 🎰 Python Slot Machine
 
-A fun, terminal-based slot machine game built using Python!  
-Play, bet, spin, and win — with colorful emojis and full CSV tracking of your results.
+A terminal-based slot machine game made with Python.  
+Spin the reels, place your bets, and win based on matching colorful emojis!  
+Symbols include: 🍍, 🍇, 🥕, 🥑, 🍎
 
 ---
 
-## 🕹️ Features
+## 🚀 Features
 
-- 💰 Start with ₹100 balance
-- 🎰 Spin 3-slot reels with emoji symbols
-- 🧮 Automatic payout calculation for matching symbols
-- 📁 Game result is logged after every spin in slot_log.csv
-- 📊 Tracks spin number, balance, net win/loss, and more
-- 📈 Displays live win rate after every round
-
----
-
-## 🎯 Symbols and Payouts
-
-| Symbol | Payout Multiplier |
-|--------|-------------------|
-| 🍓     | Not configured    |
-| 🍌     | ×5                |
-| 🥕     | ×10               |
-| 🥑     | ×20               |
-| 🍎     | ×30               |
-| 🥭     | ×3                | *(in logic, but not in spin pool)*
+- Spin a 3-symbol slot machine with emoji symbols
+- Win real-time rewards based on matching symbols
+- Track total spins, wins, and win rate
+- All spins are logged in slot_log.csv with full details
+- Simple, interactive, beginner-friendly CLI game
 
 ---
 
-## 🚀 How to Run
+## 🎮 Symbols & Payouts
 
-### Prerequisites
-- Python 3 installed on your system
+If all 3 symbols match, you win a multiplier based on the emoji:
 
-### Steps
-1. Download or clone this repo
-2. Open a terminal in the project folder
-3. Run:
+| Symbol | Multiplier |
+|--------|------------|
+| 🍍     | x3         |
+| 🍇     | x5         |
+| 🥕     | x10        |
+| 🥑     | x20        |
+| 🍎     | x30        |
+
+---
+
+## 🧾 Game Log: slot_log.csv
+
+Each spin is recorded in a CSV file with the following columns:
+
+- Timestamp
+- Spin #
+- Symbol 1, 2, 3
+- Bet
+- Payout
+- Net Change
+- Initial Balance
+- Final Balance
+- Result (Same / Different)
+- Winning Symbol (if applicable)
+
+---
+
+## ▶️ How to Play
+
+### 1. Clone the repo or download the .py file  
+### 2. Run it with Python:
 
 `bash
 python slot_machine.py
