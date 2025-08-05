@@ -54,3 +54,17 @@ Each spin is recorded in a CSV file with the following columns:
 
 `bash
 python slot_machine.py
+
+## 🖥️ Terminal Output
+
+Here's a sample run of the Python Slot Machine in the terminal:
+
+![Terminal Output](https://github.com/Ampika-Maity/slot-machine-python/blob/main/Screenshots/terminal_running_output.png)
+
+---
+
+## 📊 CSV Log Output
+
+This is how the slot_log.csv output looks after a few spins:
+
+![CSV Output](ss/csv_output.png)
