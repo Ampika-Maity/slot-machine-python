@@ -67,4 +67,4 @@ Here's a sample run of the Python Slot Machine in the terminal:
 
 This is how the slot_log.csv output looks after a few spins:
 
-![CSV Output](ss/csv_output.png)
+![CSV Output](https://github.com/Ampika-Maity/slot-machine-python/blob/main/Screenshots/CSV_preview.png)
