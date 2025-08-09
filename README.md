@@ -68,3 +68,10 @@ Here's a sample run of the Python Slot Machine in the terminal:
 This is how the slot_log.csv output looks after a few spins:
 
 ![CSV Output](https://github.com/Ampika-Maity/slot-machine-python/blob/main/Screenshots/CSV_preview.png)
+
+----
+## 🎰 Dashboard Workflow
+
+Here's the dashboard of the game (Final Output) :
+
+![Dashboard_overview](https://github.com/Ampika-Maity/slot-machine-python/blob/main/Screenshots/slot_machine_dashboard.png)
